@@ -5,3 +5,8 @@ connection = psycopg2.connect(
                         user='integrador',
                         password='contra',
                         port='5432')
+
+#cursor = conn.cursor()
+#cursor.execute("SELECT user_name FROM integrador.users")
+#print(cursor.fetchone())
+
